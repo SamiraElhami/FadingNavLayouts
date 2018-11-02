@@ -1,6 +1,6 @@
 # H1 FadingNav Layouts on iOS Using Auto Layout
 
-![final result](layout.mp4)
+![final result](https://github.com/SamiraElhami/FadingNavLayouts/blob/master/fadingNavLayout.gif)
 
 This project is a fork from the [StretchyLayout](https://github.com/TwoLivesLeft/StretchyLayout) repo. 
 
