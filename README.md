@@ -1,4 +1,4 @@
-# H1 FadingNav Layouts on iOS Using Auto Layout
+# FadingNav Layouts on iOS Using Auto Layout
 
 ![final result](https://github.com/SamiraElhami/FadingNavLayouts/blob/master/fadingNavLayout.gif)
 
