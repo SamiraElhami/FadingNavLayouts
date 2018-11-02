@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AEB559D356ED98FEA56B46A /* Pods_FadingNavLayouts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CA3ECD8B071EA0889EF95 /* Pods_FadingNavLayouts.framework */; };
 		6C7D8B1A218C553D00AC8372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8B19218C553D00AC8372 /* AppDelegate.swift */; };
-		6C7D8B1C218C553D00AC8372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8B1B218C553D00AC8372 /* ViewController.swift */; };
-		6C7D8B1F218C553D00AC8372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7D8B1D218C553D00AC8372 /* Main.storyboard */; };
+		6C7D8B1C218C553D00AC8372 /* FadingNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8B1B218C553D00AC8372 /* FadingNavViewController.swift */; };
 		6C7D8B21218C554200AC8372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7D8B20218C554200AC8372 /* Assets.xcassets */; };
 		6C7D8B24218C554200AC8372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7D8B22218C554200AC8372 /* LaunchScreen.storyboard */; };
 		6C7D8B2F218C554200AC8372 /* FadingNavLayoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8B2E218C554200AC8372 /* FadingNavLayoutsTests.swift */; };
@@ -34,10 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23DE17F2CC644AADB5D293BB /* Pods-FadingNavLayouts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadingNavLayouts.release.xcconfig"; path = "Pods/Target Support Files/Pods-FadingNavLayouts/Pods-FadingNavLayouts.release.xcconfig"; sourceTree = "<group>"; };
+		4D9CA3ECD8B071EA0889EF95 /* Pods_FadingNavLayouts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FadingNavLayouts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7D8B16218C553D00AC8372 /* FadingNavLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadingNavLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7D8B19218C553D00AC8372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C7D8B1B218C553D00AC8372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C7D8B1E218C553D00AC8372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7D8B1B218C553D00AC8372 /* FadingNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingNavViewController.swift; sourceTree = "<group>"; };
 		6C7D8B20218C554200AC8372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7D8B23218C554200AC8372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C7D8B25218C554200AC8372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		6C7D8B35218C554200AC8372 /* FadingNavLayoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadingNavLayoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7D8B39218C554200AC8372 /* FadingNavLayoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingNavLayoutsUITests.swift; sourceTree = "<group>"; };
 		6C7D8B3B218C554200AC8372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44620850291CFFFD8AD21B3 /* Pods-FadingNavLayouts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadingNavLayouts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FadingNavLayouts/Pods-FadingNavLayouts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AEB559D356ED98FEA56B46A /* Pods_FadingNavLayouts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,8 @@
 				6C7D8B2D218C554200AC8372 /* FadingNavLayoutsTests */,
 				6C7D8B38218C554200AC8372 /* FadingNavLayoutsUITests */,
 				6C7D8B17218C553D00AC8372 /* Products */,
+				99B4272CA42A9B4B55F1CFCE /* Pods */,
+				B028DFF5075DB9F9928D7B35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				6C7D8B19218C553D00AC8372 /* AppDelegate.swift */,
-				6C7D8B1B218C553D00AC8372 /* ViewController.swift */,
-				6C7D8B1D218C553D00AC8372 /* Main.storyboard */,
+				6C7D8B1B218C553D00AC8372 /* FadingNavViewController.swift */,
 				6C7D8B20218C554200AC8372 /* Assets.xcassets */,
 				6C7D8B22218C554200AC8372 /* LaunchScreen.storyboard */,
 				6C7D8B25218C554200AC8372 /* Info.plist */,
@@ -125,6 +129,23 @@
 			path = FadingNavLayoutsUITests;
 			sourceTree = "<group>";
 		};
+		99B4272CA42A9B4B55F1CFCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B44620850291CFFFD8AD21B3 /* Pods-FadingNavLayouts.debug.xcconfig */,
+				23DE17F2CC644AADB5D293BB /* Pods-FadingNavLayouts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B028DFF5075DB9F9928D7B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CA3ECD8B071EA0889EF95 /* Pods_FadingNavLayouts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C7D8B3E218C554200AC8372 /* Build configuration list for PBXNativeTarget "FadingNavLayouts" */;
 			buildPhases = (
+				E0E49CEE0EBA95ACC74F6477 /* [CP] Check Pods Manifest.lock */,
 				6C7D8B12218C553D00AC8372 /* Sources */,
 				6C7D8B13218C553D00AC8372 /* Frameworks */,
 				6C7D8B14218C553D00AC8372 /* Resources */,
+				1C39FBF611E934AF5AA13418 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +254,6 @@
 			files = (
 				6C7D8B24218C554200AC8372 /* LaunchScreen.storyboard in Resources */,
 				6C7D8B21218C554200AC8372 /* Assets.xcassets in Resources */,
-				6C7D8B1F218C553D00AC8372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +273,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C39FBF611E934AF5AA13418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FadingNavLayouts/Pods-FadingNavLayouts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FadingNavLayouts/Pods-FadingNavLayouts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E49CEE0EBA95ACC74F6477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FadingNavLayouts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C7D8B12218C553D00AC8372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7D8B1C218C553D00AC8372 /* ViewController.swift in Sources */,
+				6C7D8B1C218C553D00AC8372 /* FadingNavViewController.swift in Sources */,
 				6C7D8B1A218C553D00AC8372 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +354,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6C7D8B1D218C553D00AC8372 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C7D8B1E218C553D00AC8372 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6C7D8B22218C554200AC8372 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +481,13 @@
 		};
 		6C7D8B3F218C554200AC8372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44620850291CFFFD8AD21B3 /* Pods-FadingNavLayouts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6434W8BZN9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FadingNavLayouts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +501,13 @@
 		};
 		6C7D8B40218C554200AC8372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DE17F2CC644AADB5D293BB /* Pods-FadingNavLayouts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6434W8BZN9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FadingNavLayouts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
